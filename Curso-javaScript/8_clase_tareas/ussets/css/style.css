@@ -1,0 +1,41 @@
+body {
+  background-color: #050a30;
+}
+
+h1 {
+  color: #e1c340;
+}
+.subtitulo {
+  color: #e1c340;
+}
+
+.form {
+  color: #e1c340;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  border: 1rem outset #cfeed1;
+}
+
+.grupo-input {
+  margin: 1rem;
+}
+
+.btn btn-outline-secondary {
+  background-color: #e1c340;
+  width: 10rem;
+  height: 1rem;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#pantalla{
+  margin-top: 10px;
+  background-color: #cfeed1;
+  display: flex;
+  justify-content: center;  
+}
+
