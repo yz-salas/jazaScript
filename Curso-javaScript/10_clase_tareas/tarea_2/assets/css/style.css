@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.7px;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #90adc6;
+}
+
+h3,
+p {
+  margin-left: 10px;
+  font-weight: 700;
+  padding: 0;
+  margin-top: 0%;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 50px;
+  margin-top: 8px;
+  background-color: #75e6da;
+}
+
+li {
+  font-weight: 700;
+}
+/*
+ESTAS SON OTRA 
+*/
+
+.contenedor {
+  display: flex;
+  width: 700px;
+  height: 900px;
+  /*border: #333652 solid 2px;*/
+}
+
+.contenedor h3 {
+  color: #d4f1f4;
+}
+
+/* SECION 1 DE LA PAGINA */
+.seccion_1 {
+  width: 40%;
+  background-color: #274472;
+  color: #5885af;
+}
+
+.perfil {
+  padding: 10px;
+}
+
+.portada {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 50% #122620;
+}
+
+.hr_perfil {
+  width: 90%;
+  height: 3px;
+  background-color: #e9eaec;
+  margin-top: 0%;
+}
+
+.contacto {
+  margin-top: 2em;
+  padding: 2px;
+}
+.gmail{
+  color: #d4f1f4;
+}
+
+.hr_contacto {
+  width: 90%;
+  height: 3px;
+  background-color: #e9eaec;
+}
+
+/* FIN DE SECION 1 DE LA PAGINA */
+
+/*
+ESTO PERTENESE A LAS DOS SECCIONES DE LA PAGINA.
+*/
+.hr1, .hr2{
+  width: 70%;
+  height: 3px;
+  background-color: #e9eaec;
+  margin-bottom: 1.50em;
+
+}
+
+
+.abilidades,
+.experiencia,
+.educacion {
+  padding: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.perfil,
+.contacto,
+.abilidades,
+.experiencia,
+.educacion {
+  transition: all 1500ms;
+  position: relative;
+}
+
+.perfil:hover,
+.contacto:hover,
+.abilidades:hover,
+.experiencia:hover,
+.educacion:hover {
+  transform: scale(1.1);
+  background-color: #05445e;
+  border-radius: 10px 10px 10px 10px;
+  color: #d4f1f4;
+}
+
+/*
+ESTO PERTENESE A LAS DOS SECCIONES DE LA PAGINA.
+*/
+
+/* SECION 2 DE LA PAGINA */
+.seccion_2 {
+  width: 60%;
+  background-color: #5885af;
+  color: #274472;
+  border: solid #05445e;
+}
+
+.nombre {
+  font-size: 2rem;
+  height: 4em;
+  display: block;
+  text-align: center;
+  color: #d4f1f4;
+  padding: 0.5em;
+  margin-top: 0.5em;  
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 1em;
+  background-color: #333652;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.texto_nombre {
+  font-size: medium;
+  margin-bottom: 1rem;
+}
+
+.titulo {
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+
+.experiencia {
+  margin-top: 3px;
+  margin-bottom: 1em;
+}
+
+/* FIN DE SECION 2 DE LA PAGINA */

@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(248, 243, 215);
+}
+
+#head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  height: 70px;
+  width: 100%;
+}
+.hijo_mayor {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.n1,
+.n2,
+.n3 {
+  margin-top: 30px;
+}
+
+#contenedor {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  width: 100%;
+}
+
+#sec1 {
+  display: flex;
+  border: solid #ffaedd;
+  height: 99.3%;
+  width: 60%;
+  background-color: rgb(245, 191, 247);
+}
+
+.div_cont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+
+#sec2 {
+  height: 49%;
+  background-color: #d12727;
+}
+
+#sec3 {
+  height: 50%;
+  margin-top: 4px;
+  background-color: rgb(13, 82, 24);
+}
+
+#sec2,
+#sec3 {
+  border: solid #ffaebc;
+  margin-left: 3px;
+}
+
+#footer {
+  border: #ffaebc solid;
+  margin-top: 4px;
+  height: 10vw;
+  align-content: flex-end;
+  background-color: blueviolet;
+}
+
+p {
+  margin-left: 10px;
+  font-size: 20px;
+}

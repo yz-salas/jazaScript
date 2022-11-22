@@ -17,37 +17,34 @@ h1 {
 
 .contenedor {
   display: flex;
-  justify-content: space-between;
-  margin-left: 25;
-  margin-right: 25;
+  justify-content: center;
 }
 
-.texto-1 {
-  color: #bdb2ff;
-  margin-left: 25rem;
-  width: 150px;
-  padding: 35px;
-  border: outset 2rem #f07167;
-}
-
+.texto-1,
 .texto-2 {
-  color: #8338ec;
-  margin-right: 25rem;
+  display: flex;
+  justify-content: space-between ;
+  color: #bdb2ff;
   width: 150px;
   padding: 35px;
-  border: outset 2rem #00b4d8;
+  border: outset 1rem #f07167;
 }
 
-.lgt {
-  text-align: center;
-  display: contents;
+#fooder{
+  display: block;
+  justify-content: end;
+  border: outset #189AB4 5px;
+  background-color: #bdb2ff;
   color: #fdd05a;
-  margin: 3rem;
-  font-family: "Roboto Mono", monospace;
+  margin-top: 10px;
+}
+ 
+#f1, 
+#f2{
+  display: flex;
+  justify-content: center;
 }
 
-.hco {
-  color: #fdd05a;
-  margin: 3rem;
-  font-family: "Roboto Mono", monospace;
-}
+ 
+
+
